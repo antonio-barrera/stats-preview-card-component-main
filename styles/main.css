@@ -39,26 +39,26 @@ body {
 }
 
 .wrapper {
+    height: auto;
     max-width: 27.5rem;
     border-radius: 0.5rem;
     background: var(--card-blue);
 }
 
-.header {
-    opacity: 0.5;
-}
-
 .header-image {
-    height: 31.5rem;
+    height: 30rem;
     background-image: url('../images/image-header-mobile.jpg');
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: contain;
     opacity: 0.5;
 }
 
 .main {
-    padding: 2.5rem 2.5rem 0rem;
+    padding-top: 2.5rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 0rem;
 }
 
 .section-heading {
