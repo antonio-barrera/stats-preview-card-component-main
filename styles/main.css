@@ -103,11 +103,12 @@ body {
     color: var(--normal-white);
 }
 
-@media (min-width: 375px) {
+@media (min-width: 900px), (orientation: landscape) {
     .wrapper {
         flex-direction: row-reverse;
         text-align: left;
-        max-width: 87.5rem;
+        width: 87.5rem;
+        min-width: 87.5rem;
         height: 35rem;
     }
     .header {
